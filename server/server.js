@@ -4,7 +4,6 @@ const http = require('http');
 const server = http.createServer(app);
 const socketIo = require("socket.io");
 const usersManager = require('./usersManager');
-const elasticsearch = require('elasticsearch');
 
 require('dotenv').config();
 
