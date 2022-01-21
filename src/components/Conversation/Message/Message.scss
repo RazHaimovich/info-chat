@@ -1,0 +1,30 @@
+.message{
+    padding: 5px 10px 5px 10px;
+    border: 3px solid #fff;
+    background: #a5f5e1;
+    border-radius: 0px 10px 10px 10px;
+    width: fit-content;
+    min-width: 200px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display:-webkit-box;
+    word-break: break-all;
+    -webkit-box-orient: vertical;
+    &.current-user{
+        transform: rotate(-1deg);
+        margin-left:auto;
+        background-color: #a0f8bf;
+        border-radius: 10px 0px 10px 10px;
+        &:hover {
+            filter: brightness(1.05);
+        }
+    }
+    .info{
+        display:flex;
+        justify-content: space-between;
+        font-size: 11pt;
+        margin-bottom: 5px;
+    }
+    .content{
+        white-space: break-spaces;
+    }
+}

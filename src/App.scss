@@ -1,0 +1,16 @@
+html{
+  body {
+    height: 100vh;
+    margin: 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle, #1D976C 0%, #93F9B9 100%);
+    *{
+      outline: none;
+    }
+    .main {
+      font-family: 'Varela Round', sans-serif;
+    }
+  }
+}

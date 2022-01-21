@@ -1,0 +1,48 @@
+.input-area{
+    align-items: center;
+    background-color:#d1cdc4;
+    display:flex;
+    grid-area: chat;
+    padding: 5px 10px;
+    gap:1rem;
+    textarea{
+        font-family: 'Varela Round', sans-serif;
+        font-size: 14pt;
+        line-height: 14pt;
+        padding: 5px;
+        flex:1;
+        padding-left: 10px;
+        background: #eeeeee;
+        border-radius: 25px;
+        border: 0;
+        color: #34322c;
+        resize: none;
+        &::-webkit-scrollbar {
+            border-radius: 10px;
+            height: 10px;
+            width: 8px;
+          }
+          &::-webkit-scrollbar-thumb {
+            background: #999;
+            border-radius: 10px;
+          }
+          &::-webkit-scrollbar-track {
+            border-radius: 10px;
+          }
+    }
+    button{
+        background: none;
+        border: none;
+        font-size: 22pt;
+        color:#7c7462;
+        transition:0.3s;
+        transform: rotate(-1deg);
+        cursor: pointer;
+        text-shadow: 1px 1px #696150;
+        &:hover{
+            color:#696150;
+            text-shadow: 1px 0px #7c7462;
+            transform: rotate(-20deg);
+        }
+    }
+}

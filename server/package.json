@@ -1,0 +1,22 @@
+{
+  "name": "infochat-server",
+  "version": "1.0.0",
+  "description": "socket.io server based express",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Raz Haimovich",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^10.0.0"
+  },
+  "dependencies": {
+    "elasticsearch": "^16.7.2",
+    "express": "^4.17.1",
+    "htmlspecialchars": "^1.0.5",
+    "one-liner-joke": "^1.2.2",
+    "socket.io": "^4.4.0"
+  }
+}

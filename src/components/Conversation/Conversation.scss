@@ -1,0 +1,30 @@
+.conversation{
+  display:flex;
+  flex-direction: column;
+  background-image: url(../../images/chat_background.png);
+  padding:0;
+  margin:0;
+  position: relative;
+  grid-area:conversation;
+  .messages{
+    display:flex;
+    flex-direction: column;
+    padding: 9px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    gap:3px;
+    &::-webkit-scrollbar {
+        border-radius: 10px;
+        height: 10px;
+        width: 8px;
+    }
+    &::-webkit-scrollbar-thumb {
+        background: #999;
+        border-radius: 10px;
+    }
+    &::-webkit-scrollbar-track {
+        border-radius: 10px;
+    }
+}
+
+}

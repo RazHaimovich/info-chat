@@ -1,0 +1,11 @@
+.topbar{
+    display:none;
+    @media only screen and (max-width: 900px) {
+            display: flex;
+            grid-area: header;
+            border-bottom: 1px solid grey;
+            color: grey;
+            justify-content:space-around;
+            align-items: center;
+      }
+}
