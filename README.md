@@ -1,12 +1,7 @@
-<p align="center">
-    <img src="https://razhaimovich.com/forter/logo.png" width="200px">
-</p>
-
 # Getting Started with InfoChat
 
 This project was bootstrapped with [Create react app](https://github.com/facebook/create-react-app).
 
-![Chat](https://razhaimovich.com/forter/chat_gui.png)
 
 ## Available Scripts
 
