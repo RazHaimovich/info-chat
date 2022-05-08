@@ -1,5 +1,5 @@
 # Getting Started with InfoChat
-
+Demo: [InfoChat](https://razhaimovich.com/chat/)
 This project was bootstrapped with [Create react app](https://github.com/facebook/create-react-app).
 
 
